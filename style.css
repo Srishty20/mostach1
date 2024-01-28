@@ -1,0 +1,12 @@
+.btn-success:hover{
+    background-color: rgb(13, 0, 255);
+}
+canvas {
+    animation-name: abc;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes abc {
+    from{box-shadow: 5px 5px 80px red;}
+    to{box-shadow: 5px 5px 80px black;}
+}
